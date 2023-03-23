@@ -1,0 +1,45 @@
+{
+    "itemList": 
+    [
+        {
+            "src": "bedroom.jpeg",
+            "caption": "Bedroom",
+            "location": "Copenhagen"
+        },
+        {
+            "src": "green-shower.jpeg",
+            "caption": "Shower",
+            "location": "Berlin"
+        },
+        {
+            "src": "green-tiles.jpeg",
+            "caption": "Green tiles",
+            "location": "Switzerland"
+        },
+        {
+            "src": "red-living-room.jpeg",
+            "caption": "Red living room",
+            "location": "London"
+        },
+        {
+            "src": "scandi-style.jpeg",
+            "caption": "Scandi style",
+            "location": "Sweden"
+        },
+        {
+            "src": "seating.jpeg",
+            "caption": "Morrocan seating",
+            "location": "Morroco"
+        },
+        {
+            "src": "sliding-door.jpeg",
+            "caption": "Sliding art door",
+            "location": "Paris"
+        },
+        {
+            "src": "white-room.jpeg",
+            "caption": "Bedroom",
+            "location": "Italy"
+        }
+    ]
+}
