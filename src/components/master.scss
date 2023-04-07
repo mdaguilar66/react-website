@@ -1,19 +1,27 @@
+/* Variables */
+:root {
+	--mobile-breakpoint: 600px;
+	--tablet-breakpoint: 900px;
+}
+
+/* Page container */
 .container {
     width: 80%;
 }
 
+/* Header banner */
 .banner {
     max-width: 80%;
 }
 
 /* Album maker grid */
-
 .album-maker {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
 }
 
+/* Photo entry grid item */
 .photo-entry-block {
     background: pink;
 }
