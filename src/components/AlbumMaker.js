@@ -1,6 +1,6 @@
 import React from "react";
 import PhotoEntry from "./PhotoEntry";
-import './master.css';
+import './master.scss';
 import entries from './data/photo-entries';
 
 class AlbumMaker extends React.Component {

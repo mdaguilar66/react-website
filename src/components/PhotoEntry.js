@@ -1,5 +1,5 @@
 import React from "react";
-import './master.css';
+import './master.scss';
 
 class PhotoEntry extends React.Component {
 
@@ -7,11 +7,11 @@ class PhotoEntry extends React.Component {
         const image_path = "../images/" + this.props.src;
 
         return  <div className="photo-entry-block">
-                    <a href={image_path}>
+                    <div className="photo-entry-block__image">
                         <img className="photo-img" src={image_path} alt={image_path} />
-                    </a>
-                    <h5>{this.props.caption}</h5>
-                    <h6>{this.props.location}</h6>
+                    </div>
+                    <h5 className="photo-entry-block__caption">{this.props.caption}</h5>
+                    <h6 className="photo-entry-block__location">{this.props.location}</h6>
                 </div>
     }
 

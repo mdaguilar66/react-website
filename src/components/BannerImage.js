@@ -1,5 +1,5 @@
 import React from 'react';
-import './master.css';
+import './master.scss';
 
 function BannerImage() {
 

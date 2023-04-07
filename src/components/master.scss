@@ -1,0 +1,35 @@
+.container {
+    width: 80%;
+}
+
+.banner {
+    max-width: 80%;
+}
+
+/* Album maker grid */
+
+.album-maker {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.photo-entry-block {
+    background: pink;
+}
+
+.photo-entry-block__image {
+    .photo-img {
+        object-fit: cover;
+        width: 300px;
+        height: 400px;
+    }   
+}
+
+.photo-entry-block__caption {
+
+}
+
+.photo-entry-block__location {
+
+}

@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <BannerImage />
-        <div>
+        <div class="container">
           <h1>Welcome to my photojournal</h1>
           <h3>Molly d'Aguilar</h3>
           <AlbumMaker />
